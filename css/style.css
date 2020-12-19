@@ -116,23 +116,25 @@ div .gmail{
 .about {
     background-image:url(white.png);
     background-size: auto;
-    min-height:5500;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    min-height:5600;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
 }
 
 .smedia {
     background-image:url(white.png);
     background-size: auto;
     margin-bottom: 20px;
+    margin-top: 90px;
 }
 
-.desain{
+/*.desain{
     background-color:#111;
     background-size: auto;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
     min-height: 200px;
-}
+}*/
 
 div .col-sm-10{
     text-align: justify ;
