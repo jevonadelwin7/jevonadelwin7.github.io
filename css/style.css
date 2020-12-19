@@ -1,0 +1,153 @@
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    
+}
+
+.page-header{
+    background-image: url(back4.jpg);
+    background-size: 1350px ;
+    background-position: center;
+    min-height:700px;
+}
+
+.page-header img{
+    width:200px;
+    border: solid whitesmoke;
+    border-width:5px ;
+    margin-top: 70px;
+    margin-left: 140px;
+    max-resolution: bottom 20px;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color:floralwhite;
+    font-size: 50   px;
+    margin-left: 50px;
+
+}
+
+
+.status{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color:azure;
+    font-size: 20px;  
+    margin-left: 20px;     
+}
+
+div .quote{
+    font-family:sans-serif;
+    font-style: italic;
+    color:azure;
+    font-size: 20px;  
+    margin-right: 70px;
+    margin-top: 170px;
+
+
+}
+
+
+hr {
+    width: 250px;
+    border-top: 3px solid black;
+}
+
+.line2 {
+    border-top: 3px solid aliceblue;
+    width:250px;
+}
+.line3{
+    border-top: 3px solid aliceblue;
+    width:250px;
+}
+section{
+    min-height:500px;
+}
+
+
+.portofolio{
+    background-color:#111;
+    background-size: 1200px ;   
+    margin-top: 20px;
+    margin-bottom:30px;
+    padding-bottom: 20px;
+}
+
+.porto{
+    color:white;
+}
+.this{
+    color: white;
+}
+.design{
+    background-color: #111;
+    min-height: 500px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:50px;
+    background-color:#333;
+    color: white;
+    margin-top: 5px;
+    
+}
+.row{
+    padding-top: 20px;
+}
+
+button {
+    margin-left: 180px;
+}
+
+div .gmail{
+    margin-bottom: 20px;
+}
+
+
+.about {
+    background-image:url(white.png);
+    background-size: auto;
+    min-height:5500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.smedia {
+    background-image:url(white.png);
+    background-size: auto;
+    margin-bottom: 20px;
+}
+
+.desain{
+    background-color:#111;
+    background-size: auto;
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+
+div .col-sm-10{
+    text-align: justify ;
+    font-size:x-large;
+}
+div .col-sm-4{
+    padding-top: 20px;
+}
+
+.isi {
+    text-indent: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.isi2 {
+    text-indent: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
