@@ -9,9 +9,40 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- Primary Meta Tags -->
+
+    <meta name="title" content="Jevon Adelwin" />
+    <meta name="description" content="Personal web & Portofolio" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jevonadelwin7.github.io/" />
+    <meta property="og:title" content="Jevon Adelwin" />
+    <meta property="og:description" content="Personal web & Portofolio" />
+    <meta property="og:image" content="https://jevonadelwin7.github.io/img/meta.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jevonadelwin7.github.io/" />
+    <meta property="twitter:title" content="Jevon Adelwin" />
+    <meta property="twitter:description" content="Personal web & Portofolio" />
+    <meta property="twitter:image" content="https://jevonadelwin7.github.io/img/meta.png" />
+
+
+
+
+
     <title>Jevon Adelwin</title>
   </head>
   <body>
+
+    <script>
+      AOS.init();
+    </script>
 
     <!--------------------------------- Navbar---------------------------------------------------->
     
@@ -37,12 +68,12 @@
 
       <section class="section-one" style="background-color: #202020;">
       <div class="secone container pt-5 pb-5 ">
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-duration="1000"> 
             <img src="img/profile.jpg" alt="Me" class="rounded-circle border border-success img-thumbnail" >
             
         </div>
         <div class="col-lg-6" >
-            <div class="card bg-dark" >
+            <div class="card bg-dark" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="card-body">
                 <h2 class="card-tile">Jevon Adelwin Hura</h2>
                 <h5 class="card-title">Web Developer</h5>
@@ -63,9 +94,10 @@
     </section>
 
     <section class=" section-two" style="background-color: #161616;" >
-      <h2 class="title-sec text-center pt-5">Tech Stack</h2>
-      <div class="row mx-auto mt-5">
-        <div class="col text-center">
+      <h4 class="title-desc text-center pt-5" >Skills</h2>
+      <h2 class="title-sec text-center ">Tech Stack</h2>
+      <div class="row mx-auto mt-5" data-aos="zoom-in">
+        <div class="col text-center" >
           <img src="https://laravel.com/img/logomark.min.svg" class="" alt="laravel" width="50px" height="100px">
         </div>
         <div class="col text-center">
@@ -145,7 +177,7 @@
         <h2 class="title-sec text-center ">Latest Self Projects</h2>
       <div class="container pt-5">
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="zoom-in">
             <div class="proj card mx-auto" >
               <img class="card-img-top" src="img/j5card.jpg" alt="Card image cap">
               <div class="proj-body card-body">
@@ -171,11 +203,11 @@
 
     <section class="section-five pb-4" style="background-color: #202020;" >
       <h4 class="title-desc text-center pt-5">Certification</h2>
-      <h2 class="title-sec text-center ">Latest Certification & Course</h2>
+      <h2 class="title-sec text-center ">Certification & Course</h2>
       <div class="container pt-5">
         <div class="row">
-          <div class="col-sm">
-            <div class="proj card mx-auto" >
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+            <div class="cer card mx-auto" >
               <img class="card-img-top" src="img/cer_bootcamp.png" alt="Card image cap">
               <div class="proj-body card-body">
                   <h5 class="card-title text-left" id="porto">Bootcamp Fullstack  Node JS</h5>
@@ -183,8 +215,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="proj card mx-auto" >
+          <div class="col" data-aos="fade-up" data-aos-duration="1000"> 
+            <div class=" cer card mx-auto" >
               <img class="card-img-top" src="img/cer_kom.png" alt="Card image cap">
               <div class="proj-body card-body">
                   <h5 class="card-title text-left" id="porto">Cyber Security Operation</h5>
@@ -192,8 +224,8 @@
                </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="proj card mx-auto" >
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+            <div class="cer card mx-auto" >
               <img class="card-img-top" src="img/cer_kom_2.png" alt="Card image cap">
               <div class="proj-body card-body">
                   <h5 class="card-title text-left" id="porto">React JS for Web Development</h5>
@@ -201,8 +233,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="proj card mx-auto" >
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+            <div class="cer card mx-auto" >
               <img class="card-img-top" src="img/cer_sdlc.png" alt="Card image cap">
               <div class="proj-body card-body">
                   <h5 class="card-title text-left" id="porto">Software Development Processes and Methodologies Course</h5>
@@ -211,11 +243,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="proj card mx-auto" >
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+            <div class="cer card mx-auto" >
               <img class="card-img-top" src="img/cer_javascript.jpg" alt="Card image cap">
               <div class="proj-body card-body">
-                  <h5 class="card-title text-left" id="porto">Javascript</h5>
+                  <h5 class="card-title text-left" id="porto">Javascript Fundamental</h5>
                 <p class="card-text" style="color:#13FF00 ;">Progate</p>
                 
               </div>
